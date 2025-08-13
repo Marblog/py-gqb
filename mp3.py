@@ -12,7 +12,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 BASE_URL = "https://www.gequbao.com/top/week-download?page={}"
 SAVE_DIR = "D:/python/songs/week-top"
-PAGES = 20  # 这里测试1页，改成20页即可
+PAGES = 1  # 这里测试1页，改成页码即可
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -163,3 +163,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
